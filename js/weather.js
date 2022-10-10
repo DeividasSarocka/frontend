@@ -5,7 +5,7 @@ if (!token) {
     document.location.href = '/index.html';
 }
 else {
-    fetch('https://localhost:7004/WeatherForecast', {
+    fetch('https://deividofullstackapi.azurewebsites.net/WeatherForecast', {
         method: 'GET',
         headers: {
             'Authorization': `Bearer ${token}`
